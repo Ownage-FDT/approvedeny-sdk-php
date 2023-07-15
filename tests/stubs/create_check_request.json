@@ -1,0 +1,13 @@
+{
+    "status": "success",
+    "message": "Check request created successfully",
+    "data": {
+        "description": "Test Check Request",
+        "metadata": {
+            "key1": "value1"
+        },
+        "checkId": "9421ab2c-1f98-428a-87c0-3e94f2392060",
+        "id": "4b48b437-2e67-47d7-9859-208962528e3d",
+        "createdAt": "2023-05-27T17:24:26.423Z"
+    }
+}

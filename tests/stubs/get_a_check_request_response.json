@@ -1,0 +1,15 @@
+{
+    "status": "success",
+    "message": "Check request response retrieved successfully",
+    "data": {
+        "id": "26f9d334-80f8-40cd-98c4-bebc882a0ff1",
+        "status": "approved",
+        "metadata": {
+            "key1": "value1",
+            "key2": "value 2"
+        },
+        "checkRequestId": "7c624d53-8f20-4dc8-b692-a67e43f1cfa9",
+        "createdAt": "2023-05-27T17:21:36.917Z",
+        "updatedAt": "2023-05-27T17:21:36.917Z"
+    }
+}

@@ -1,0 +1,49 @@
+{
+    "name": "ownage/approvedeny-sdk-php",
+    "description": "",
+    "keywords": [
+        "approvedeny",
+        "approvedeny-sdk-php"
+    ],
+    "homepage": "https://github.com/ownage/approvedeny-sdk-php",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Olayemi Olatayo",
+            "email": "olatayo.olayemi.peter@gmail.com",
+            "role": "Creator"
+        }
+    ],
+    "require": {
+        "php": ">=8.1",
+        "guzzlehttp/guzzle": "^7.7"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^3.21",
+        "pestphp/pest": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ownage\\Approvedeny\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Ownage\\Approvedeny\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/pest",
+        "test-coverage": "vendor/bin/pest --coverage",
+        "format": "vendor/bin/php-cs-fixer fix --config=.php-cs-fixer.dist.php --allow-risky=yes"
+    },
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
